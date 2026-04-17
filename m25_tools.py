@@ -181,11 +181,17 @@ print("\033[46m-\033[0m" * 8**2)
 
 print("\033[92m 5. Quadrat \033[0m")
 
-def zum_quadrat(a, b):
-    return a ** b
+def zum_quadrat(a):
+    return a ** 2
 
+print("\033[46m-\033[0m" * 8**2)
 
-print("\033[92m 5. Quadrat \033[0m")
+print("\033[92m 6. Wurzel ziehen \033[0m")
 
 # Wurzel
 
+def wurzel(a):
+    return a ** 0.5
+
+#print("\033[46m-\033[0m" * 8**2)
+print("\033[42m-\033[0m" * 8**2)
