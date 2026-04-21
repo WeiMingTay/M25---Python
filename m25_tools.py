@@ -39,7 +39,7 @@ print("\033[91m 2. Der Dubletten-Killer\033[0m")
 
 messwerte_liste = [23,45,68,45,65,98,23,45,78,44]
 
-# print(messwerte_liste)
+print("Messwerte: ", messwerte_liste)
 
 def bereinigung(liste):
     liste_set = set(liste)
@@ -67,7 +67,8 @@ dezimal_zahl = 44
 def dez_zu_bin_hex(zahl):
     # slice, damit der jeweilige Präfix nicht angezeigt wird. ggf überlegen, ob man das erst nach dem return macht
     binaer = bin(zahl)[2:]
-    hexa = hex(zahl)[2:].upper()
+    hexa = hex(zahl)[2:]
+    # hexa = hex(zahl)[2:].upper()
     
     return binaer, hexa
 
