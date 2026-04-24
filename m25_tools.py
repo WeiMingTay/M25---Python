@@ -99,7 +99,7 @@ print("\033[46m-\033[0m" * 8**2)
 
 # print("\033[91m 5. Der Wörterbuch-Bot \033[0m")
 
-# def wörterbuch():
+# def woerterbuch():
 #     fruechte_lexikon = {
 #     "Durian": "Sie wird für ihre cremige Konsistenz und ihr komplexes, herzhaft-süßes Aroma geschätzt.",
 #     "Mangosteen": "Diese Frucht bietet ein perfekt ausbalanciertes Verhältnis zwischen Süße und feiner Säure.",
@@ -121,7 +121,7 @@ print("\033[46m-\033[0m" * 8**2)
 #     else:
 #         print(f"Sorry, '{frucht}' leider nicht gefunden")
 
-# wörterbuch()
+# woerterbuch()
 
 print("\033[42m-\033[0m" * 8**2)
 # https://github.com/WeiMingTay/M25---Python
