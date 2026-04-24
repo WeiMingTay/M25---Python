@@ -10,7 +10,7 @@ Aufgabenstellung
 4. Der ASCII-Decoder: Entwickelt eine Schleife, die einen Namen in seine ASCII-Codes zerlegt (ord()) und untereinander ausgibt.
 5. Der Wörterbuch-Bot: Nutzt ein dict, um Fachbegriffe (Key) in Erklärungen (Value) zu übersetzen. Fragt den User nach einem Begriff.
 """
-# print("\033[42m-\033[0m" * 8**2)
+print("\033[42m-\033[0m" * 8**2)
 # # 1. Der Mengen-Rechner: Implementiert eine Funktion, die zwei Listen 
 # # (z.B. Zutaten) als Sets vergleicht und ausgibt, was fehlt (Differenz) 
 # # und was da ist (Schnitt).
@@ -30,10 +30,10 @@ Aufgabenstellung
 # # print("\033[4mZutaten 2 als Basis\033[0m")
 # # mengen_rechner(zutaten2, zutaten1)
 
-# print("\033[46m-\033[0m" * 8**2)
+print("\033[46m-\033[0m" * 8**2)
 
-# 2. Der Dubletten-Killer: Schreibt ein Skript, das eine Liste von 
-# Messwerten bereinigt (Sets) und die Anzahl der gelöschten Duplikate meldet.
+# # 2. Der Dubletten-Killer: Schreibt ein Skript, das eine Liste von 
+# # Messwerten bereinigt (Sets) und die Anzahl der gelöschten Duplikate meldet.
 
 # print("\033[91m 2. Der Dubletten-Killer\033[0m")
 
@@ -46,13 +46,13 @@ Aufgabenstellung
 #     # Durch das return kann man die bereinigte Liste und die Differenz noch verwenden
 #     return list(liste_set), gelöscht
 
-# print("Messwerte: ", messwerte_liste)
+# print("Messwerte (alt): ", messwerte_liste)
 
 # bereinigte_liste, differenz = bereinigung(messwerte_liste)
-# print("Messwerte: ", bereinigte_liste)
+# print("Messwerte (neu): ", bereinigte_liste)
 # print(f"Es wurden {differenz} Duplikate gelöscht.")
 
-# print("\033[46m-\033[0m" * 8**2)
+print("\033[46m-\033[0m" * 8**2)
 
 # # 3. Der Binär-Übersetzer: Baut einen Konverter, der eine Dezimalzahl einliest 
 # # und die Binär- und Hex-Darstellung formatiert ausgibt.
@@ -65,8 +65,8 @@ Aufgabenstellung
 
 # def dez_zu_bin_hex(zahl):
 #     # slice, damit der jeweilige Präfix nicht angezeigt wird. ggf überlegen, ob man das erst nach dem return macht
-#     binaer = bin(zahl)[2:]
-#     hexa = hex(zahl)[2:]
+#     binaer = bin(zahl)
+#     hexa = hex(zahl)
 #     # hexa = hex(zahl)[2:].upper()
     
 #     return binaer, hexa
@@ -74,11 +74,11 @@ Aufgabenstellung
 # binaer_zahl, hexa_zahl = dez_zu_bin_hex(dezimal_zahl)
 # print(f"Dezimalzahl: {dezimal_zahl}\nBinär: {binaer_zahl}\nHexaDezimal: {hexa_zahl}")
 
-# # print("-" * 8)
-# # # Lösung über f-Strings mit u.A Tausendertrennzeichen
-# # print(f"Binär: {dezimal_zahl:_b}\nHexadezimal: {dezimal_zahl:X}".replace("_", " "))
+# print("-" * 8)
+# # Lösung über f-Strings mit u.A Tausendertrennzeichen
+# print(f"Binär: {dezimal_zahl:_b}\nHexadezimal: {dezimal_zahl:X}".replace("_", " "))
 
-# print("\033[46m-\033[0m" * 8**2)
+print("\033[46m-\033[0m" * 8**2)
 
 # # Der ASCII-Decoder: Entwickelt eine Schleife, die einen Namen in seine 
 # # ASCII-Codes zerlegt (ord()) und untereinander ausgibt.
@@ -92,7 +92,7 @@ Aufgabenstellung
 #     ascii_wert = ord(buchstabe)
 #     print(f"Zeichen: '{buchstabe}’ | ASCII: {ascii_wert}")
 
-# print("\033[46m-\033[0m" * 8**2)
+print("\033[46m-\033[0m" * 8**2)
 
 # # Der Wörterbuch-Bot: Nutzt ein dict, um Fachbegriffe (Key) in 
 # # Erklärungen (Value) zu übersetzen. Fragt den User nach einem Begriff.
@@ -102,7 +102,7 @@ Aufgabenstellung
 # def wörterbuch():
 #     fruechte_lexikon = {
 #     "Durian": "Sie wird für ihre cremige Konsistenz und ihr komplexes, herzhaft-süßes Aroma geschätzt.",
-#     "Mangostan": "Diese Frucht bietet ein perfekt ausbalanciertes Verhältnis zwischen Süße und feiner Säure.",
+#     "Mangosteen": "Diese Frucht bietet ein perfekt ausbalanciertes Verhältnis zwischen Süße und feiner Säure.",
 #     "Rambutan": "Hinter der weichen, behaarten Schale steckt ein sehr erfrischendes und saftiges Fruchtfleisch.",
 #     "Erdbeere": "Die kleinen gelben Nüsschen auf der roten Haut machen sie botanisch einzigartig.",
 #     "Apfel": "Er ist ein vielseitiger Energielieferant, der in fast jedem Klima der Welt gedeiht.",
@@ -119,12 +119,12 @@ Aufgabenstellung
 #     if frucht in fruechte_lexikon:
 #         print(f"Name der Frucht: {frucht}\nWas macht diese aus: {fruechte_lexikon[frucht]}")
 #     else:
-#         print(f"Sorry, '{frucht.capitalize()}' leider nicht gefunden")
+#         print(f"Sorry, '{frucht}' leider nicht gefunden")
 
 # wörterbuch()
 
-# print("\033[42m-\033[0m" * 8**2)
-
+print("\033[42m-\033[0m" * 8**2)
+# https://github.com/WeiMingTay/M25---Python
 
 
 
