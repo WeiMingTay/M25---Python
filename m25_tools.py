@@ -1,4 +1,4 @@
-# Mahte 2.5 Epic Bearbeitung
+# Mathe 2.5 Epic Bearbeitung
 """
 Aufgabenstellung
 
@@ -27,8 +27,8 @@ print("\033[42m-\033[0m" * 8**2)
 # print("\033[4mZutaten 1 als Basis\033[0m")
 # mengen_rechner(zutaten1, zutaten2)
 
-# # print("\033[4mZutaten 2 als Basis\033[0m")
-# # mengen_rechner(zutaten2, zutaten1)
+# print("\033[4mZutaten 2 als Basis\033[0m")
+# mengen_rechner(zutaten2, zutaten1)
 
 print("\033[46m-\033[0m" * 8**2)
 
