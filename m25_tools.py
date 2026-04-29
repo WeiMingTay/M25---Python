@@ -102,19 +102,19 @@ print("\033[46m-\033[0m" * 8**2)
 print("\033[91m 5. Der Wörterbuch-Bot \033[0m")
 
 
-# def woerterbuch():
-#     fruechte_lexikon = {
-#     "Durian": "Sie wird für ihre cremige Konsistenz und ihr komplexes, herzhaft-süßes Aroma geschätzt.",
-#     "Mangosteen": "Diese Frucht bietet ein perfekt ausbalanciertes Verhältnis zwischen Süße und feiner Säure.",
-#     "Rambutan": "Hinter der weichen, behaarten Schale steckt ein sehr erfrischendes und saftiges Fruchtfleisch.",
-#     "Erdbeere": "Die kleinen gelben Nüsschen auf der roten Haut machen sie botanisch einzigartig.",
-#     "Apfel": "Er ist ein vielseitiger Energielieferant, der in fast jedem Klima der Welt gedeiht.",
-#     "Mango": "Das goldgelbe Fruchtfleisch ist besonders reich an Vitaminen und tropischer Süße.",
-#     "Drachenfrucht": "Die Kaktusfrucht fasziniert durch ihr punktiertes Inneres und ihre außergewöhnliche Optik.",
-#     "Ananas": "Ihre charakteristische Struktur und die intensive Süße machen sie zu einer kulinarischen Ikone.",
-#     "Heidelbeere": "Die intensive Färbung stammt von Pflanzenstoffen, die als besonders wertvoll gelten.",
-#     "Granatapfel": "Seine zahlreichen Kerne sind für ihre knackige Textur und den herben Saft bekannt."
-#     }
+def woerterbuch():
+    fruechte_lexikon = {
+    "Durian": "Sie wird für ihre cremige Konsistenz und ihr komplexes, herzhaft-süßes Aroma geschätzt.",
+    "Mangosteen": "Diese Frucht bietet ein perfekt ausbalanciertes Verhältnis zwischen Süße und feiner Säure.",
+    "Rambutan": "Hinter der weichen, behaarten Schale steckt ein sehr erfrischendes und saftiges Fruchtfleisch.",
+    "Erdbeere": "Die kleinen gelben Nüsschen auf der roten Haut machen sie botanisch einzigartig.",
+    "Apfel": "Er ist ein vielseitiger Energielieferant, der in fast jedem Klima der Welt gedeiht.",
+    "Mango": "Das goldgelbe Fruchtfleisch ist besonders reich an Vitaminen und tropischer Süße.",
+    "Drachenfrucht": "Die Kaktusfrucht fasziniert durch ihr punktiertes Inneres und ihre außergewöhnliche Optik.",
+    "Ananas": "Ihre charakteristische Struktur und die intensive Süße machen sie zu einer kulinarischen Ikone.",
+    "Heidelbeere": "Die intensive Färbung stammt von Pflanzenstoffen, die als besonders wertvoll gelten.",
+    "Granatapfel": "Seine zahlreichen Kerne sind für ihre knackige Textur und den herben Saft bekannt."
+    }
 
     
     frucht = input("Bitte Obstnamen eingeben: ").capitalize()
