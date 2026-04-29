@@ -126,7 +126,7 @@ def woerterbuch():
         print(f"Sorry, '{frucht}' leider nicht gefunden")
 
 
-# woerterbuch()
+woerterbuch()
 
 
 print("\033[42m-\033[0m" * 8**2)
